@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tris - Gioco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gioca a Tris</h1>
+    <div id="game-board">
+        <div class="row">
+            <div class="cell" data-cell-index="0"></div>
+            <div class="cell" data-cell-index="1"></div>
+            <div class="cell" data-cell-index="2"></div>
+        </div>
+        <div class="row">
+            <div class="cell" data-cell-index="3"></div>
+            <div class="cell" data-cell-index="4"></div>
+            <div class="cell" data-cell-index="5"></div>
+        </div>
+        <div class="row">
+            <div class="cell" data-cell-index="6"></div>
+            <div class="cell" data-cell-index="7"></div>
+            <div class="cell" data-cell-index="8"></div>
+        </div>
+    </div>
+
+    <div id="status">
+        <p>Turno del giocatore: <span id="current-player">X</span></p>
+        <p id="move-status"></p>
+        <button id="reset-button">Ricomincia</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
